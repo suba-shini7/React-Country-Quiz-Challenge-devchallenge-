@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://img.freepik.com/free-photo/warm-save-wallpaper-dark-texture_1258-284.jpg?w=996&t=st=1701623604~exp=1701624204~hmac=49019dd9b803785daf0910ec1d6d54213d9d83ab8db7139d9fd57d35d5a7e58b');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ques{
+  height: 500px;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  box-shadow:0 5px 10px rgb(166, 166, 166) ;
+}
+.opt{
+ padding: 2rem;
+ border-top:1px solid white ;
+}
+.opt ul{
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  list-style: none;
+}
+.opt ul li{
+  padding: 1rem;
+  background-color: rgb(219, 219, 219);
+  color: #000;
+  cursor: pointer;
+}
+.opt ul li:hover{
+  box-shadow: 3px 5px 2px #888888;
+}
+.score{
+  height: 500px;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
